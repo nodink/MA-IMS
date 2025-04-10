@@ -1,0 +1,25 @@
+.pbox{
+  margin-top: 15px;
+}
+
+.pbtn {
+  transition: all .3s;
+    border: 1px solid #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  font-size: 15px;
+}
+
+.pbtn:not(.active) {
+  background-color:transparent;
+}
+
+.active {
+  background-color: #ddd;
+  color :#000;
+}
+
+.pbtn:hover:not(.active) {
+  background-color: #ddd;
+} 
